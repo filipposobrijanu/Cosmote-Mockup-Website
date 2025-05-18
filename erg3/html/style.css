@@ -1,0 +1,372 @@
+.BOTTOMannouncement{
+
+    background-color:#00afe9;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins';
+    padding: 0.35em;
+    padding-left: 3em;
+    font-size: 0.9em;
+    bottom: 1%;
+    display: flex;
+    align-items:flex-end;
+}
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+    background-color: #eeeeee;
+  }
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 2em;
+    border: 0.1em solid #a7a7a7;
+    box-shadow: 0.0em 0.0em 0.3em rgb(107, 107, 107);
+    border-radius: 2em;
+    background-color: #fefefe;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+.logo{
+
+    width: 20em;
+    margin: 0;
+    display: flex;
+    margin: 0 auto;
+    padding: 1.5em;
+    transition: width 1s;    
+
+}
+.logo:hover{
+
+  width: 25em;
+}
+.announcement {
+
+    background-color: #469c36;
+    margin: 0;
+    color: white;
+    font-size: 1.3em;
+    padding:0.4em;
+    text-align: center;}
+
+.footext{
+
+        flex-wrap: wrap;
+        color: #00afe9;
+        font-size: 1em;
+        padding: 3em;
+        text-decoration: none;
+
+}
+.footext:hover{
+
+  text-decoration: underline;
+}
+
+ul.foot {
+
+
+    list-style-type: none;
+    margin: 2em;
+    margin-top: 0;
+    display: inline-flex;
+    padding: 1em;
+    overflow: hidden;
+    color: #1f508f;
+    
+}
+
+div.container {
+
+    text-align: center;
+
+}
+
+.tmobilelogo{
+
+    margin-left: 5%;
+    width: 12em;
+}
+.labelhead{
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #00afe9;
+    padding: 0.5em;
+    margin: 0;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.7em;
+    box-shadow: 0.0em 0.0em 0.3em rgb(156, 156, 156);
+
+}
+
+.button {
+
+    margin-top: 1.5em;
+    background-color: #1f508f;
+    color: white;
+    padding: 1em 1.5em;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 0.7em;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0.0em 0.0em 0.3em rgb(156, 156, 156);
+    transition: font-size 0.3s;
+}
+
+.button:hover{
+
+  color: rgb(219, 219, 219);
+  font-size: 1em;
+
+}
+
+.inputt, select {
+    width: 100%;
+    padding: 0.75em;
+    border-radius: 0.7em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    box-sizing: border-box;
+    border: 0.05em solid #000000;
+    outline: 0.1em solid #464646;
+  }
+
+  .poin:hover{
+
+    cursor: pointer;
+  }
+
+  .poin{
+
+    margin-bottom: 1.5em;
+  }
+
+  #poin1:hover{
+
+    cursor: pointer;
+  }
+  .inputt:focus{
+  border: 0.15em solid #00afe9;
+  outline: 0.1em solid #00afe9;
+  
+}
+
+input[type='date']:focus {
+  border: 0.15em solid #00afe9;
+  outline: 0.1em solid #00afe9;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Regular.ttf);
+}
+
+
+#check{
+
+    width: 1em;
+    margin-bottom: 0.3em;
+    display: block;
+    padding: 0;
+    border: none;
+    outline: none;
+
+}
+#check:hover{
+
+  cursor: pointer;
+  
+}
+#cancel {
+    background-color: black;
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  .oroi{
+
+    font-size: 0.9em;
+
+  }
+  .pow{
+
+    font-family: "Poppins";
+    font-size: 0.7em;
+    color: #181818;
+    text-align: center ;
+    margin-bottom: 2em;
+
+  }
+
+#toptext{
+
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(90deg, #469c36 40%, #1f508f 55%);
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: 0.8em;
+    border-radius: 0.7em;
+
+
+}
+
+#toptext:hover{
+
+  background-image: linear-gradient(90deg, #1f508f 40%, #469c36 55%);
+  
+}
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #00afe9;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+ 
+.anaka:hover{
+
+  color: #eeeeee;
+
+}
+
+
+.hide {
+
+  opacity:0;
+  
+}
+.show {
+
+  opacity:1;
+
+}
+  
+.frash{
+
+  opacity: 0;
+  font-size: 0.8em;
+  margin: 0;
+  margin-bottom: 0;
+  transition: margin-bottom 0.2s ease-in-out , opacity 0.2s ease-out;
+  font-style: italic;
+  color: #a7a7a7;
+
+}
+
+.trigger:hover + .inputt + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+.trigger:hover + select + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+.trigger:hover + br + .poin + .poin  + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+
+    
+  @media (max-width: 800px) {
+
+    ul.foot {
+
+
+      list-style-type: none;
+      margin: 0;
+      display:inline-table;
+      padding: 1em;
+      overflow: hidden;
+      color: #1f508f;
+    }
+      .footext{
+        
+        flex-wrap: wrap;
+        color: #00afe9;
+        font-size: 1em;
+
+        text-decoration: none;}
+        li{
+          margin: 1.5em 0;
+        }
+        form {
+          max-width: 25em;
+    
+        }
+}
+
+  @media (max-width: 650px) {
+
+    form {
+      max-width: 25em;
+
+    }
+    
+
+  }
+  @media (max-width: 575px) {
+
+    form {
+      max-width: 20em;
+
+    }
+    
+  }
+
+  @media (max-width: 500px) {
+    form {
+      background-color: #eeeeee;
+
+    }
+
+    .logo:hover{
+
+      width: 22em;
+    }
+
+  }

@@ -1,0 +1,313 @@
+.BOTTOMannouncement{
+
+    background-color:#00afe9;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins';
+    padding: 0.35em;
+    padding-left: 3em;
+    font-size: 0.9em;
+    bottom: 1%;
+    display: flex;
+    align-items:flex-end;
+}
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+    background-color: #eeeeee;
+  }
+
+  .labelhead{
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #00afe9;
+    padding: 0.5em;
+    margin: 0;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.7em;
+    box-shadow: 0.0em 0.0em 0.3em rgb(156, 156, 156);
+
+}
+@keyframes fade{
+
+  0%{
+
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8);
+  }
+
+  100%{
+
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.intro{
+
+  animation: fade 0.5s;
+
+}
+
+@keyframes fade1{
+
+  0%{
+
+    opacity: 0;
+
+  }
+
+  100%{
+
+    opacity: 1;
+
+  }
+}
+.intro1{
+
+  
+  animation: fade1 1s;
+
+}
+
+#pos{
+
+  font-size: 1.5em;
+  
+  color: black;
+  background-color: white;
+  padding: 0.5em;
+  margin: 0;
+  margin-top: 1.4em;
+  margin-bottom: 1em;
+  border-radius: 0.7em;
+  box-shadow: 0.0em 0.0em 0.3em rgb(156, 156, 156);
+
+}
+
+  #toptext{
+
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(90deg, #469c36 40%, #1f508f 55%);
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: 0.8em;
+    border-radius: 0.7em;
+
+
+}
+
+#toptext:hover{
+
+  background-image: linear-gradient(90deg, #1f508f 40%, #469c36 55%);
+  
+}
+
+.logo{
+
+    width: 20em;
+    margin: 0;
+    display: flex;
+    margin: 0 auto;
+    padding: 1.5em;
+    transition: width 1s;
+    animation: fade 0.5s;    
+
+}
+.logo:hover{
+
+  width: 25em;
+}
+.announcement {
+
+    background-color: #469c36;
+    margin: 0;
+    color: white;
+    font-size: 1.3em;
+    padding:0.4em;
+    text-align: center;}
+
+.footext{
+
+        flex-wrap: wrap;
+        color: #00afe9;
+        font-size: 1em;
+        text-decoration: none;
+
+}
+
+.pad{
+
+  padding: 0 3em 0 3em;
+}
+.footext:hover{
+
+  text-decoration: underline;
+}
+
+.inputt, select {
+  width: 100%;
+  padding: 0.75em;
+  border-radius: 0.7em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  box-sizing: border-box;
+  border: 0.05em solid #000000;
+  outline: 0.1em solid #464646;
+}
+
+.inputt:focus{
+  border: 0.15em solid #7eb023;
+  outline: 0.1em solid #7eb023;
+  
+}
+
+.button {
+
+  margin-top: 1.5em;
+  background-color: #1f508f;
+  color: white;
+  padding: 1em 1.5em;
+  border: none;
+  font-size: 0.9em;
+  border-radius: 0.7em;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0.0em 0.0em 0.3em rgb(156, 156, 156);
+  transition: font-size 0.3s;
+}
+ul.foot1 {
+
+  list-style-type: none;
+  
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  
+}
+img.social{
+        
+  margin: 0;
+  width: 2em;
+
+}
+.button:hover{
+
+color: rgb(219, 219, 219);
+font-size: 1em;
+
+}
+
+#result{
+
+  margin-top: 2em;
+  color: black;
+  font-size: 1.1em;
+  
+}
+#result1{
+
+  margin-top: 2em;
+  color: black;
+  font-size: 1.1em;
+  
+}
+
+#form2{
+
+  display: none;
+}
+
+ul.foot {
+
+
+    list-style-type: none;
+    margin: 2em;
+    margin-top: 0;
+    display: inline-flex;
+    padding: 1em;
+    overflow: hidden;
+    color: #1f508f;
+    
+}
+
+div.container {
+
+    text-align: center;
+
+}
+
+.tmobilelogo{
+
+    margin-left: 5%;
+    width: 12em;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Regular.ttf);
+}
+  .pow{
+
+    font-family: "Poppins";
+    font-size: 0.7em;
+    color: #181818;
+    text-align: center ;
+    margin-bottom: 2em;
+
+  }
+
+#toptext{
+
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(90deg, #469c36 40%, #1f508f 55%);
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: 0.8em;
+    border-radius: 0.7em;
+
+
+}
+
+::selection {
+
+  background: #1f508f;
+  color: white;
+
+}
+
+#toptext:hover{
+
+  background-image: linear-gradient(90deg, #1f508f 40%, #469c36 55%);
+  
+}
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 2em;
+    border: 0.1em solid #a7a7a7;
+    box-shadow: 0.0em 0.0em 0.3em rgb(107, 107, 107);
+    border-radius: 2em;
+    background-color: #fefefe;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  .anaka:hover{
+
+    color: #eeeeee;
+  
+  }

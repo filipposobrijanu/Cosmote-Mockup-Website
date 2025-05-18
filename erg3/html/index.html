@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Εγγραφή
+        </title>
+        <link rel="icon" type="image/x-icon" href="../files/favicon1.png">
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .apar{
+
+                color: rgb(223, 0, 0);
+
+            }
+
+            input[type=checkbox] {
+
+                accent-color: #469c36;
+
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header style="background-color: #fefefe;">
+            <p class="announcement"><b>--- <span style="background-color:#1f508f; color: white; border-radius: 1vw; padding-left: 0.5vw; padding-right: 0.5vw; padding-bottom: 0.1vw;padding-top: 0.1vw;">ΜΟΝΑΔΙΚΕΣ</span> ΠΡΟΣΦΟΡΕΣ ΜΟΝΟ ΓΙΑ <span style="background-color: white; color: black; border-radius: 1vw; padding-left: 0.5vw; padding-right: 0.5vw; padding-bottom: 0.1vw;padding-top: 0.1vw;">ΣΗΜΕΡΑ</span>, <a style="color: white;" href="https://www.cosmote.gr/hub/"><span class="anaka">ΑΝΑΚΑΛΥΨΕ</span></a> ΤΙΣ ΤΩΡΑ! ---</b></p>
+            
+            <div>
+                <a>
+                    <img class="logo" src="../files/Cosmote_logo.svg.png" alt="Cosmote Logo">
+                </a>
+            </div>
+
+            <hr style="background-color:#7eb023; border: none; height: 0.15em; margin: 0;">
+            
+        </header>
+
+        <form action="#" method="Μέθοδος_Αποστολής">
+
+            <P id="toptext" class="labelhead">Φόρμα Εγγραφής</P>
+            <hr style="background-color:#eeeeee; border: none; height: 0.2em; margin: 0;">
+            <P class="labelhead">Προσωπικά στοιχεία</P>
+
+            <label class="trigger" for="title">Τίτλος:</label> <br>
+            <input class="poin" type="radio" name="title" value="Κύριος" checked> Κύριος
+            <input class="poin" type="radio" name="title" value="Κυρία"> Κυρία
+            <p class="frash">- Συμπληρώστε τον τίτλο σας -</p>
+
+            <label class="trigger" for="name">Όνομα:</label>
+            <input class="inputt" type="text" name="name" id="name" placeholder="Όνομα (π.χ. Γιώργος)">
+            <p class="frash">- Συμπληρώστε το όνομά σας -</p>
+
+            <label class="trigger" for="name1">Επώνυμο:</label>
+            <input class="inputt" type="text" name="name" id="name1" placeholder="Επώνυμο (π.χ. Παπαδόπουλος)">
+            <p class="frash">- Συμπληρώστε το επώνυμό σας -</p>
+
+
+            <label class="trigger" for="birthdate">Ημερομηνία Γέννησης:</label>
+            <input class="inputt" id="poin1" type="date" name="birthdate" min="1980-01-01" max="2022-12-31">
+            <p class="frash">- Συμπληρώστε την ημερομηνία γέννησής σας -</p>
+
+            <label class="trigger" for="country">Χώρα Κατοικίας:</label>
+            <select class="poin" name="country">
+              <option value="Ελλάδα" selected>Ελλάδα</option>
+              <option value="Τουρκία">Τουρκία</option>
+              <option value="Ιταλία">Ιταλία</option>
+              <option value="Αλβανία">Αλβανία</option>
+              <option value="Βουλγαρία">Βουλγαρία</option>
+            </select>
+            <p class="frash">- Συμπληρώστε την χώρα κατοικίας σας -</p>
+
+
+            <label class="trigger" for="oik">Οικογενειακή Κατάσταση:</label>
+            <select class="poin" name="oik">
+              <option value="Έγγαμος">Έγγαμος</option>
+              <option value="Άγαμος">Άγαμος</option>
+            </select>
+            <p class="frash">- Συμπληρώστε την οικογενειακή κατάστασή σας -</p>
+
+
+            <p class="labelhead" style="background-color: #7eb023;">Στοιχεία επικοινωνίας</p>
+
+
+            <label class="trigger" for="address"><span class="apar">* </span>Διεύθυνση Κατοικίας:</label>
+            <input class="inputt" type="text" name="address" id="address" placeholder="Διεύθυνση Κατοικίας" required>
+            <p class="frash">- Συμπληρώστε την διεύθυνσή σας -</p>
+
+          
+            <label class="trigger" for="city">Πόλη:</label>
+            <input class="inputt" type="text" name="city" id="city" size="10" maxlength="15" placeholder="Πόλη (π.χ. Πειραιάς)">
+            <p class="frash">- Συμπληρώστε την πόλη σας -</p>
+          
+            <label class="trigger" for="perioxh">Περιοχή/Περιφέρεια:</label>
+            <input class="inputt" type="text" id="perioxh" name="perioxh" placeholder="Περιοχή/Περιφέρεια (π.χ. Αττική)">
+            <p class="frash">- Συμπληρώστε την περιφέρειά σας -</p>
+
+          
+            <label class="trigger" for="tax">Ταχυδρομικός Κώδικας:</label>
+            <input class="inputt" type="text" name="tax" id="tax" placeholder="Τ.Κ. (π.χ. 18χχχ για Πειραιά)">
+            <p class="frash">- Συμπληρώστε τον ταχυδρομικό κώδικά σας -</p>
+
+          
+            <label class="trigger" for="phone">Τηλέφωνο:</label>
+            <input class="inputt" type="tel" name="phone" id="phone" placeholder="Τηλέφωνο (π.χ. +30 69χχχχχχχχχχχ για Ελλάδα)">
+            <p class="frash">- Συμπληρώστε το τηλέφωνό σας -</p>
+
+          
+            <label class="trigger" for="email">Email:</label>
+            <input class="inputt" type="email" name="email" id="email" placeholder="Email">
+            <p class="frash">- Συμπληρώστε την ηλεκτρονική διεύθυνσή σας -</p>
+
+
+            <p class="labelhead" style="background-color: #469c36;">Δημιουργία κωδικού πρόσβασης</p>
+
+
+            <label class="trigger" for="password"><span class="apar">* </span>Συνθηματικό:</label>
+            <input class="inputt" type="password" name="password" id="password" required>
+            <p class="frash">- Συμπληρώστε το συνθηματικό σας -</p>
+
+          
+            <label class="trigger" for="confirm-password"><span class="apar">* </span>Κωδικός:</label>
+            <input class="inputt" type="password" name="confirm-password" id="confirm-password" required>
+            <p class="frash">- Συμπληρώστε τον κωδικό σας -</p>
+
+            <p class="oroi"> Έχω διαβάσει και αποδέχομαι τους <a style="color: black;" href="https://www.cosmote.gr/cs/cosmote/gr/cosmotehomedporoikaiproipotheseis.html">Όρους & Προϋποθέσεις</a></p>
+            <input class="inputt" id="check" type="checkbox" name="terms"> 
+
+            <input class="button" type="submit" value="Αποστολή">
+            <input id="cancel" class="button" type="reset" value="Ακύρωση">
+
+        </form>
+
+
+        <p class="pow"> Powered by Filippos Obrizanou</p>
+
+
+        <footer style="background-color: #fefefe;">
+            <hr style="background-color:#00afe9; border: none; height: 0.15em; margin: 0; margin-bottom: 2em;">
+
+            <div class="container">
+                <ul class="foot">
+                    <li><a class="footext" href="https://www.cosmote.gr/cs/otegroup/gr/corp_homepage.html">OTE</a></li>
+                    <li><a class="footext" href="https://www.cosmote.gr/cs/otegroup/en/cosmote_ae.html">COSMOTE</a></li>
+                    <li><a class="footext" href="https://www.cosmote.gr/cs/otegroup/gr/thigatrikes.html">ΛΟΙΠΕΣ ΘΥΓΑΤΡΙΚΕΣ</a></li>
+                    <li><a class="footext" href="https://www.cosmote.gr/cs/otegroup/gr/investor_relations.html">ΕΠΕΝΔΥΤΙΚΕΣ ΣΧΕΣΕΙΣ</a></li>
+                </ul>
+            </div>
+
+            <a href="https://www.t-mobile.com/">
+                <img class="tmobilelogo" src="../files/t-mobile.png" alt="Member of T-Mobile Group Logo">
+            </a>
+
+            <p class="BOTTOMannouncement">© 2023, COSMOTE</p>
+
+        </footer>
+    </body>
+</html>

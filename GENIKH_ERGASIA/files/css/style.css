@@ -1,0 +1,1947 @@
+
+@media only screen and (min-width: 375px){
+
+    @font-face {
+        font-family: Poppins;
+        src: url(../../fonts/Poppins-Regular.ttf);
+    }
+    @font-face {
+        font-family: Zona;
+        src: url(../../fonts/OpenSans-Regular.ttf);
+    }
+
+    @keyframes fade-down{
+
+        0%{
+
+            opacity: 0;
+            transform: translateY(-30px) scale(0.9);
+        }
+
+        100%{
+
+            opacity: 1;
+            transform: translateY(0px) scale(1);
+        }
+    }
+
+
+    @keyframes fade-opacity{
+
+        0%{
+
+            opacity: 0;
+            
+        }
+
+        100%{
+
+            opacity: 1;
+            
+        }
+    }
+
+    html{
+
+        scroll-behavior: smooth;
+
+    }
+    .men,.logo,.login-icon,.phone,.pronomia_text,.top_prot_text,.top-text,
+    .top-text2,.social,.footext,.tmobilelogo,.newsh,.newsp,#ypo_but,.vid,
+    .imgnews,.cosmlogo,.tablee,.mapp,.den-thes,#hrlogin,.dropdown-icon{
+
+        animation: fade-down 1s;
+    }
+
+    .form-popup,.navhr1{
+
+        animation: fade-opacity 0.4s;
+
+    }
+
+    body.fade {
+        opacity: 0;
+    }
+
+        .pronomia_text{
+
+            text-align: left;  
+            color: #030303; 
+            font-family: Zona; 
+            font-size: 1em;
+            display: inline-table;
+            padding: 0 2em 0 2em;
+
+
+        }
+        .susk_text{
+
+            text-align: left;  
+            color: #030303; 
+            font-family: Zona; 
+            font-size: 1em;
+            display: inline-table;
+            padding: 0 2em 0 2em;
+        }
+
+        .top_prot_text{
+
+            
+            color: #030303; 
+            font-family: Zona; 
+            font-size: 1em;
+            display: inline-table;
+            padding: 0 2em 0 2em;
+            background-color: #f9f9f9;
+            border-radius: 2em;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            margin-left: 2.4em;
+            height:2em;
+
+        }
+        .imgnews{
+            margin: 0; 
+            width: 50%;
+            border-radius: 1em;
+            display: inline-block;
+            margin-bottom: 1.5em;
+            
+        }
+        #giaperissotera{
+
+            text-decoration: none;
+            color: #469c36; 
+            font-weight: bold;
+            font-size: 1.3em;
+            border-bottom: 0.13em solid #7eb023;
+            border-radius: 1em;
+        
+        }
+        #giaperissotera:hover{
+
+
+            color: #1f508f;
+            border-color: #00afe9; 
+        
+        }
+
+        .datenews{
+
+            font-size: 0.9em; 
+            text-decoration: underline;
+        }
+        .mathe{
+            
+            background-color:#1f508f;
+            margin: 0;
+            font-family:Zona;
+            color: #f7f7f7;
+            font-size: 1.3vw;
+            border-radius: 1vw;
+            padding: 0.6VW;
+            overflow: hidden;
+        }
+        #den_thes{
+
+            margin-bottom: 3em;
+        }
+        
+        .gigapar{
+
+            text-align: left; 
+            padding-left: 2vw; 
+            font-size: 0.8vw;
+        }
+        .gigamax{
+            text-align: center;
+            font-size:1.2vw;
+        }
+        body{
+
+            margin: 0;
+            background-color: #f9f9f9;
+            opacity: 1;
+            transition-duration: 0.7s;
+            transition-property: opacity;
+        }
+        .tmobilelogo{
+
+            margin-left: 5%;
+            width: 12em;
+        }
+        .enaskosmos{
+            font-family: Zona;
+            font-size: 2vw;
+            margin-top: 2vw;
+            display: block;
+        }
+        .destes{
+            
+            background-color:#00afe9;
+            margin: 0;
+            font-family:Zona;
+            color: #f7f7f7;
+            font-size: 1.3vw;
+            border-radius: 1vw;
+            padding: 0.6VW;
+            margin-left: 44vw;
+            margin-right: 44vw;
+            margin-bottom: 1vw;
+            margin-top: 1vw;
+            overflow: hidden;
+        }
+        ul.nav {
+
+            font-family:Zona;
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            padding: 0.7em;
+            background-color: #f9f9f9;
+            overflow: hidden;
+            font-size: 0.9em;
+            border-radius: 0;
+            align-items: center;
+        
+
+        }
+        ul.nav2 {
+
+            font-family:Zona;
+            list-style-type: none;
+            margin: 0;
+            height: 100%;
+            display: grid;
+            place-items: center;
+            justify-content: center;
+            background-color: #f9f9f9;
+            overflow: hidden;
+            font-size: 1.2em;
+            border-radius: 0;
+
+        }
+
+        li{
+            float: left;
+        }
+        ul a {
+
+            display:table;
+            text-align: center;
+            padding: 0.7em 0.9em;
+            text-decoration: none;
+            color: #030303;
+            margin: 0 0.5em;
+            border-radius: 0.8em;
+            letter-spacing: 0.06em;
+        }
+        .mon-pros{
+
+            font-weight: bold;
+            color: #f7f7f7;
+            border-bottom: 0.15em solid #f7f7f7;
+            padding-bottom: 0.01em;
+
+        }
+        #monprosfora{
+
+            font-weight: bold;
+            font-size: 2.7em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        .mon-pros:hover{
+
+            color: #030303;
+            border-color: #030303;
+
+        }
+        li.men a:hover:not(.active) {
+
+            color:#469c36;
+
+        }
+        ::selection {
+
+            background: #1f508f;
+            color: #f7f7f7;
+        
+        }
+        .active {
+
+            color: #1f508f;
+            font-weight: 800;
+        }
+        .active:hover {
+
+            color: #3064a9;
+
+        }
+        .announcement {
+
+            background-color: #469c36;
+            margin: 0;
+            color: #f7f7f7;
+            font-family:Zona;
+            font-size: 0.9em;
+            padding: 0.6em;
+            text-align: center;
+            letter-spacing: 0.03em;
+        
+        }
+        .announcement1 {
+
+            background: repeating-linear-gradient(45deg, rgb(219, 0, 0) , rgb(219, 0, 0) 10px, white 10px,white 20px);
+            margin: 0;
+            padding: 0.5em;
+            text-align: center;
+
+        }
+        .divider{
+
+            background: repeating-linear-gradient(-60deg, #7eb023 , #469c36 10px, white 5px,white 13px);
+            margin: 0;
+            padding: 0.05em;
+            text-align: center;
+            margin-bottom: 0em;
+            margin-top: 2em;
+
+        }
+        #div1{
+
+            background: repeating-linear-gradient(-60deg, #00afe9 , #00afe9 10px, white 5px,white 13px);
+            
+        }
+
+        #div2{
+
+            background: repeating-linear-gradient(-60deg, #1f508f , #1f508f 10px, white 5px,white 13px);
+
+        }
+        #div3{
+
+            background: repeating-linear-gradient(-60deg, #d34d90 , #d34d90 10px, white 5px,white 13px);
+            margin-top: 0em;
+
+        }
+        
+        #div4{
+
+            background: repeating-linear-gradient(-60deg, #afafaf , #afafaf 10px, white 5px,white 13px);
+            margin-top: 0;
+
+        }
+        
+
+        /*.login-icon{
+
+            padding-left: 40em;
+
+        }*/
+        .padd{
+
+
+            padding-left: 25em;
+
+
+        }
+        .login-icon:hover{
+
+            filter: opacity(60%);
+
+
+        }
+        .login-icon2:hover{
+
+            filter: opacity(60%);
+
+
+        }
+        .dropdown-icon:hover{
+
+                filter: opacity(60%);
+                cursor: pointer;
+
+        }
+        .circle{
+
+            font-size: 1em;
+            border-radius: 50%;
+            font-weight: bold;
+            background-color: #f7f7f7;
+            color: #030303;
+            width: 1.6em;
+            height: 1.6em;
+            border: none;
+            font-family: Zona;
+            border-radius: 50%;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .circle:hover{
+
+            background-color: #469c36;
+            color: white;
+
+        }
+        ::placeholder{
+
+            color: #8c8c8c;
+            font-family: Zona;
+        }
+        .navhr{
+            background-color: #e6e6e6; 
+            
+            border: none;
+            height: 0.1em; 
+            margin: 0;
+    
+        }
+        .navhr1{
+            
+            display: none;
+            border: none;
+            height: 0.15em; 
+            margin: 0;
+            background-color: #469c36;
+            
+    
+        }
+        .logo{
+
+            width: 17em;
+            margin: 0;
+            padding: 0.6vw;
+            margin-bottom: 0.5em;
+        }
+        .arrow{
+
+            margin: 0;
+            position: fixed;
+            width:3em;
+            right: 2%;
+            bottom: 3%;
+            filter: drop-shadow(0em 0em 0.2em rgb(34, 34, 34));
+            transition: all 2s;
+        }
+        .arrow:hover{
+
+            filter: opacity(87%);
+
+        }
+        .menu{
+            position: fixed;
+            z-index: 1;
+            width: 100%;
+        }
+
+        .hide{
+
+            opacity: 0;
+            right: -25%;
+        }
+        .show{
+
+            opacity: 1;
+            right: 2%;
+        }
+        .banner{
+
+            margin: 0;
+            width: 92%;
+            display: block;
+            margin: 0 auto;
+        }
+        .pronomia_img{
+
+            margin: 0;
+            width: 16em;   
+            margin: 0 auto;
+            border-radius: 1em;
+
+
+        }
+        .ypo_img{
+
+            margin: 0;
+            width: 6em;   
+            margin: 0 auto;
+
+        }
+        .top_img{
+
+            width: 19em;   
+            margin: 0 auto;
+            border-radius: 1em;
+
+        }
+        .top_prot_img{
+
+            width: 2em;   
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        .newsh{
+
+            text-align: center;
+            margin: 0;
+            font-family:Zona;
+            color:#1f508f;
+            font-size: 1.4em;
+            padding: 0.5em 4em 0.5em 4em;
+            margin-top: 0.7em;
+
+        }
+        .pow{
+
+            font-family: Poppins;
+            font-size: 0.7em;
+            margin: 0;
+            color: #f7f7f7;
+            margin-left: 3em;
+
+        
+        }
+        .newsp{
+
+            text-align: left;
+            margin: 0;
+            font-family:Zona;
+            color:#565b65;
+            font-size: 1em;
+            margin-top: 1em;
+            padding: 0.5em;
+            margin-bottom: 1.1em;
+            margin-left: 4em;
+            margin-right: 4em;
+
+        }
+        #cosmblue{
+
+            border-radius: 3em;
+
+        }
+        .top-text{
+
+            text-align: center;
+            margin: 0;
+            font-family:Zona;
+            color:#030303;
+            padding-top: 1em;
+            padding-bottom: 0.7em;
+            margin-top: 2em;
+            
+
+        }
+
+        .top-text2{
+
+            text-align: center;
+            background-color:#469c36;
+            margin: 0;
+            font-family:Zona;
+            color: #f7f7f7;
+            font-size: 1em;
+            padding: 0.8em 2em 0.8em 2em;
+            font-weight: bold;
+            border-radius: 1.5em;
+            display: inline-table;
+            margin-left: 1em;
+
+        }
+        .top-p{
+
+            text-align: left;
+            margin: 0;
+            font-family:Zona;
+            font-size: 1vw;
+            padding: 1.5vw;
+        }
+        .prosforaimg{
+
+            width: 15%;
+        }
+        .prosfora{
+
+            text-align: center;
+            background-color:#eeeeee;
+            margin: 0;
+            margin-top: 2vw;
+            padding: 1vw;
+            border-radius: 2vw;
+            margin-left: 35vw;
+            margin-right: 35vw;
+            color: #030303;
+            font-family: Zona;
+
+        }
+        ul.pros {
+
+            font-family:Zona;
+            list-style-type: none;
+            margin: 0;
+            display: block;
+            padding: 0.6vw;
+            overflow: hidden;
+            text-align: center;
+            font-size: 0.8vw;
+
+        }
+        #jekina{
+
+            font-size: 0.7em;
+    
+        }
+        #jekina1{
+
+            font-size: 0.7em;
+    
+        }
+        #jekina1:hover{
+
+            background-color: #1f508f;
+            color: #f7f7f7;
+            border-color: #1f508f;
+            
+        }
+        .banner1{
+
+            display:inline-block;
+            margin-top: 1em;
+            width: 90%;
+            border-radius: 1em;
+
+        }
+        .prosforacos{
+
+            width: 25%;
+            padding: 0.5vw;
+            border-radius: 2vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+        }
+        .proscos{
+            
+            font-family:Zona;
+            list-style-type: none;
+            margin: 0;
+            display: block;
+            background-color:#f7f7f7;
+            padding: 0.6vw;
+            text-align: center;
+            font-size: 1vw;
+            border-radius: 1vw;
+            margin-left: 41vw;
+            margin-right: 41vw;
+            color: #030303;
+        }
+
+        .tmobile{
+
+            margin: 0;
+            width: 8vw;
+            display: block;
+        }
+        .pad{
+
+            padding: 0 1em 0 1em;
+        }
+        ul.foot {
+
+
+            list-style-type: none;
+            margin: 2em;
+            margin-bottom: 0;
+            padding: 1em;
+            overflow: hidden;
+            color: #1f508f;
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            margin-top: 1.5em;
+            
+        }
+        ul.foot1 {
+
+            list-style-type: none;
+            
+            display: flex;
+            justify-content: center;
+            padding: 1vw;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 0.8em;
+            
+        }
+        .footext{
+
+            flex-wrap: wrap;
+            color: #00afe9;
+            font-size: 1em;
+            font-family: Zona;
+            text-decoration: none;
+    
+    }
+    #footer{
+
+        margin-top: 1em;
+
+    }
+    .footext:hover{
+
+        text-decoration: underline;
+    }
+
+        div.container {
+            text-align: center;
+        }
+        img.social{
+            
+            margin: 0;
+            width: 2em;     
+        
+        }
+        img.social:hover{
+        
+            filter: brightness(50%);
+        
+        }
+
+        .BOTTOMannouncement{
+
+            background-color:#00afe9;
+            margin: 0;
+            font-family:Zona;
+            padding-bottom: 0.5em;
+            padding-top: 0.5em;
+
+        }
+        table {
+            
+            
+            border-radius: 0.6em;
+            width: 50%  ;
+        }
+        .logotable{
+
+            width: 80%;
+            margin-top: 1em;
+
+        }
+        :target {
+            border: 2px solid #D4D4D4;
+            background-color: #bafe00;
+        }
+        .supp{
+
+
+            background-color: #1f508f;
+            color: #f7f7f7;
+            padding: 0.8em 1.2em;
+            border: none;
+            font-family: Zona;
+            font-size: 1em;
+            border-radius: 0.7em;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 3em;
+            padding-right: 3em;border: 0.05em solid #030303;
+            
+        }
+        .arxikh_but{
+
+            background-color: #f7f7f7;
+            color: #030303;
+            padding: 0.8em 1.2em;
+            border: none;
+            font-family: Zona;
+            font-size: 1em;
+            border-radius: 0.7em;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            padding-left: 3em;
+            padding-right: 3em;
+            border: 0.05em solid #030303;
+        }
+        .arxikh_but:hover{
+
+
+            background-color: #469c36;
+            color: #f7f7f7;
+            border-color: #469c36;
+
+        }
+        .halftone-bg {
+            background: 
+            linear-gradient(100deg, #1f508f 25%, transparent 25%) -50px 0,
+            linear-gradient(100deg, #1f508f 25%, transparent 25%) -50px 0,
+            linear-gradient(5deg, #1f508f 25%, transparent 25%),
+            linear-gradient(200deg, #1f508f 25%, transparent 25%);	
+            background-size: 6em 2em;
+            background-color: #00afe9;
+            border-radius: 6em 0em 6em 0em;
+            padding: 2em 0 2em 0;
+            height: 10em;
+            margin-bottom: 52em;
+        }
+
+        .pronomia_but{
+
+            display: flex;
+            justify-content: center;
+            background-color: #fefefe; 
+            color: #030303;
+            padding: 0.8em 1.2em;
+            border: 0.05em solid #030303;
+            font-family: Zona;
+            font-size: 1em;
+            border-radius: 0.7em;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+
+
+        }
+        #footer{
+
+            margin-top: 4em;
+        }
+        #ypo_but{
+            margin-left: 37em;
+            margin-right: 37em;
+            margin-top: 2em;
+            text-align: center;
+        }
+        .top_prot_but{
+
+            display: flex;
+            justify-content: center;
+            background-color: #469c36; 
+            color: #fefefe;
+            padding: 0.8em 1.2em;
+            font-family: Zona;
+            font-size: 1em;
+            border-radius: 0.7em;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1em;
+
+        }
+        .top_prot_but:hover{
+
+
+            background-color: #327626;
+
+        }
+        .pronomia_but:hover{
+
+
+            background-color: #469c36;
+            color: #f7f7f7;
+            border-color: #469c36;
+
+        }
+        .supp:hover{
+
+        filter: opacity(80%);
+
+        }
+        
+
+        .den-thes{
+
+            font-size: 0.9em;
+            margin-top: 2em;
+            color: #030303;
+            font-family: Zona;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        
+        .pata{
+        
+            font-weight: 800;
+            cursor: pointer;
+            border-bottom: 0.13em solid #030303;
+            padding-bottom: 0.01em;
+        }
+        .pata:hover{
+        
+            color: #565b65;
+            border-color: #565b65;
+        
+        }
+
+        #thlform{
+
+                max-width: 45em;
+                margin: 0 auto;
+                padding: 2em;
+                border-radius: 2em;
+                font-family: Zona;
+                display: none;
+                margin-top: 0;
+                margin-bottom: 0;
+
+        }
+        #cosm_gigamax_banner{
+
+            text-align: left; 
+            padding-left: 11%; 
+            padding-top: 7%; 
+            position: absolute; 
+            color: white; 
+            font-family: Zona; 
+            font-size: 1.5em;
+        }
+
+        .trigger:hover + .inputt + .frash{
+    
+            opacity: 1;
+            margin-bottom: 1.5em;
+        
+        }
+        
+        .trigger:hover + select + .frash{
+            
+            opacity: 1;
+            margin-bottom: 1.5em;
+        
+        }
+        .trigger{
+        
+            color: #030303;
+        }
+        
+        .trigger:hover + br + .poin + .poin  + .frash{
+            
+            opacity: 1;
+            margin-bottom: 1.5em;
+        
+        }
+
+        .inputt {
+            width: 100%;
+            padding: 0.75em;
+            border-radius: 0.7em;
+            margin-bottom: 1.5em;
+            margin-top: 1em;
+            box-sizing: border-box;
+            border: 0.05em solid #565b65;
+            outline: 0.05em solid #565b65;
+            caret-color: rgb(60, 60, 60);
+        
+        }
+
+        .inputt:focus{
+            border: 0.15em solid #469c36;
+            outline: 0.1em solid #469c36;
+            
+        }
+        .frash{
+
+            opacity: 0;
+            font-size: 0.8em;
+            margin: 0;
+            margin-bottom: 0;
+            transition: margin-bottom 0.2s ease-in-out , opacity 0.2s ease-out;
+            color:#565b65;
+        
+        }
+        .button {
+
+
+            background-color: #f7f7f7; 
+            color: #030303;
+            padding: 0.8em 3em;
+            font-family: Zona;
+            font-size: 1em;
+            border-radius: 0.7em;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 0.4em;
+            border: 0.05em solid #030303;
+        
+        }
+        .button:hover{
+
+            background-color: #327626;
+            color: #f7f7f7;
+            border-color: #327626;
+        
+        }
+        #cancel {
+            background-color: #030303;
+            color: #f7f7f7;
+        }
+        #cancel:hover{
+        
+            filter: opacity(80%);
+        }
+        #mhnuma{
+
+            width: 100%;
+
+        }
+
+        textarea{
+
+            resize: none;
+            
+        }
+
+        #blinking{
+            animation: blinkingText 2s linear infinite;
+        }
+
+        @keyframes blinkingText{
+            0%{     color: #030303;    }
+            25%{    color: #030303; }
+            45%{    color: rgb(213, 213, 213); }
+            65%{    color: transparent;  }
+            75%{   color: rgb(213, 213, 213); }
+            100%{   color: #030303;    }
+        }
+
+        #blinking:hover{
+
+            animation: none;
+            color: #5cb34d;
+        }
+        #toptext31{
+
+            font-size: 2.2em;
+            font-weight: bold;
+            padding: 0.3em;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 1em;
+            margin-top: 1em;
+            color: #030303;
+            font-family: Zona;
+        }
+        #ftiaje_idan_banner{
+
+            text-align: left; 
+            padding-left: 11%; 
+            padding-top: 13%; 
+            position: absolute; 
+            color: white; 
+            font-family: Zona; 
+            font-size: 1.4em;
+        }
+        #cosmo_blue_banner{
+
+            text-align: left;
+            padding-left: 13%;
+            padding-top: 11%;
+            position: absolute;
+            color: white;
+            font-family: Zona;
+            font-size: 1.4em;
+        }
+        #hide_small_res{
+
+            display: none;
+        }
+        #susk_div{
+
+            display: inline-block; 
+            text-align: center;
+            justify-content: center;
+            margin-top: 1em;
+        }
+        #tv_xmas{
+
+            content: url('../../assets/tvxmas-carousel-mobile.png');
+        }
+        #smartphon{
+
+            content: url('../../assets/smarphones-sub-mobile.jpg');
+
+        }
+        #xmass_without{
+
+            content: url('../../assets/xmass_mob_without_loyalty.png');
+
+        }
+
+        #news_banner{
+
+            display: none;
+
+        }
+        .imgnews{
+
+            width: 75%;
+        }
+        #ypo_but{
+            margin-left: 7em;
+            margin-right: 7em;
+        
+        }
+        .moving-box {
+
+            width: 10em;
+            position: fixed;
+            animation: moveBox 17s infinite;
+            display: none;
+            
+        }
+
+        
+        .vid{
+            border:none; 
+            border-radius: 1em; 
+            width: 20em; 
+            height: 13em;
+            margin-top: 1em;
+        }
+        .hidemap{
+
+            display: none;
+        }
+        .phone{
+
+            display: block;
+            text-align: left; 
+            padding-left: 14%; 
+            padding-top: 24em;
+            position: absolute; 
+            color: #f7f7f7; 
+            font-family: Zona; 
+            font-size: 0.8em
+
+        }
+        #banner2_changepadd{
+
+            padding-top: 23em;
+            
+        }
+        #banner3_changepadd{
+
+            padding-top: 27em;
+        }
+        #hide_protaseis{
+
+            display: none;
+        }
+        .dropdown-icon{
+
+            filter: opacity(89%);
+            width: 2.5em;
+
+        }
+        #dropdownnav {
+            display: none;
+          }
+
+        .dropdown-icon_pad{
+
+            padding-left: 0em;
+        }
+        #dropdownnav{
+            text-align: center;
+        }
+        #banner_but{
+
+            display: none;
+        }
+        #margindots{
+
+            margin-left: 0em;
+        }
+        #banner2_changepadd{
+
+            padding-top: 23em;
+            
+        }
+} 
+@media only screen and (min-width: 390px){
+
+    #banner2_changepadd{
+
+        padding-top: 27em;
+        
+    }
+
+
+}
+@media only screen and (min-width: 420px){
+
+    #banner1_change{
+
+        padding-top: 27em;
+    }
+    #banner3_changepadd{
+
+        padding-top: 29em;
+    }
+    #banner2_changepadd{
+
+        padding-top: 30em;
+        
+    }
+
+
+}
+@media only screen and (min-width: 450px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 4em;
+    }
+    #banner2_changepadd{
+
+        padding-top: 33em;
+        
+    }
+
+}
+@media only screen and (min-width: 469px){
+
+    #banner1_change{
+
+        padding-top: 31em;
+    }
+
+
+}
+@media only screen and (min-width: 510px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 7em;
+    }
+    #banner1_change{
+
+        padding-top: 25em;
+        font-size: 1em;
+    }
+    #banner3_changepadd{
+
+        padding-top: 28em;
+        font-size:1em;
+    }
+    #banner2_changepadd{
+
+        padding-top: 29em;
+        font-size:1em;
+        
+    }
+
+}
+@media only screen and (min-width: 550px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 9em;
+    }
+    #banner1_change{
+
+        padding-top: 28em;
+
+    }
+    #banner2_changepadd{
+
+        padding-top: 32em;
+
+        
+    }
+
+}
+@media only screen and (min-width: 580px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 13em;
+    }
+    #banner3_changepadd{
+
+        padding-top: 30em;
+
+    }
+    #banner2_changepadd{
+
+        padding-top: 35em;
+
+        
+    }
+
+}
+@media only screen and (min-width: 600px){
+
+
+    #banner1_change{
+
+        padding-top: 29em;
+        font-size: 1.1em;
+
+    }
+    #banner3_changepadd{
+
+        padding-top: 30em;
+        font-size: 1.1em;
+
+    }
+    #banner2_changepadd{
+
+        padding-top: 34em;
+        font-size: 1.1em;
+
+        
+    }
+
+}
+@media only screen and (min-width:630px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 16em;
+    }
+
+}
+@media only screen and (min-width: 670px){
+
+
+    #banner1_change{
+
+        padding-top: 28em;
+        font-size: 1.2em;
+
+    }
+    #banner3_changepadd{
+
+
+        font-size: 1.2em;
+
+    }
+    #banner2_changepadd{
+
+        padding-top: 34em;
+        font-size: 1.2em;
+
+        
+    }
+
+}
+@media only screen and (min-width:690px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 21em;
+    }
+
+}
+@media only screen and (min-width: 720px){
+
+
+    #banner1_change{
+
+
+        font-size: 1.3em;
+
+    }
+    #banner3_changepadd{
+
+
+        font-size: 1.3em;
+
+    }
+    #banner2_changepadd{
+
+        padding-top: 32em;
+        font-size: 1.3em;
+
+        
+    }
+
+}
+@media only screen and (min-width:740px){
+
+    .halftone-bg{
+
+        margin-bottom: 30em;
+    }
+
+}
+@media only screen and (min-width: 768px){
+
+    #banner1_change{
+
+        padding-top: revert;
+        font-size: revert;
+
+    }
+    #banner2_changepadd{
+
+        padding-top: revert;
+        font-size: revert;
+
+        
+    }
+
+    #banner3_changepadd{
+
+        padding-top: revert;
+        font-size: revert;
+
+    }
+
+    ul.nav2 {
+
+        font-size: 1.1em;
+        justify-content: left;
+        place-items: revert;
+
+    }
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 24em;
+    }
+    #hide_protaseis{
+
+        display: block;
+    }
+
+    #banner2_changepadd{
+
+        padding-top: 4%;
+    }
+    #banner3_changepadd{
+
+        padding-top: 5%;
+    }
+    #banner1_change{
+
+        font-size: 0.7em;
+        padding-top: 0.5em;
+    }
+    #banner2_changepadd{
+    
+        font-size: 0.7em;
+    }
+    #banner3_changepadd{
+    
+        font-size:0.7em;
+        padding-top: 2em;
+    }
+
+    .hidemap{
+
+        display: block;
+    }
+    
+    .vid{
+
+        width: 30em; 
+        height: 18em;
+
+    }
+    #susk_div{
+
+        display: flex; 
+        justify-content: center;
+        margin-top: 1em;
+    }
+
+    .moving-box{
+
+        display: block;
+            
+    }
+
+    #news_banner{
+
+        display: block;
+        
+    }
+
+    #tv_xmas{
+
+        content: url('../../assets/tvxmas-carousel-desktop.jpg');
+    }
+    #smartphon{
+
+        content: url('../../assets/smarphones-sub-desk.jpg');
+
+    }
+
+    #xmass_without{
+
+        content: url('../../assets/xmass_without_loyalty_desk.png');
+
+    }
+    #monprosfora{
+
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pad{
+
+        padding: 0 3em 0 3em;
+    }
+
+    ul.foot {
+
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1.5em;
+
+    }
+    #cosmo_blue_banner{
+
+        font-size: 1.1em;
+    }
+    #ftiaje_idan_banner{
+
+        font-size: 0.9em;
+    }
+    #jekina{
+
+        font-size: 0.9em;
+    }
+    #jekina1{
+        
+        font-size: 1.1em;
+
+    }
+    #cosm_gigamax_banner{
+
+        padding-top: 6%; font-size: 1em;
+ 
+    }
+    .halftone-bg{
+
+        margin-bottom: 32em;
+    }
+    .phone{
+
+ 
+        padding-left: 10%; 
+        padding-top: 2%;
+        font-size: 0.7em;
+
+    }
+    #footer{
+
+        margin-top: 2em;
+    }
+    .imgnews{
+
+        width: 65%;
+    }
+    .susk_text{
+
+        font-size: 1.2em;
+        margin: 0 auto;
+        margin-bottom: 3em;
+
+    }
+    #susk_div{
+
+        display: grid; 
+
+    }
+    #ypo_but{
+        margin-left: 12em;
+        margin-right: 12em;
+
+    }
+
+
+}
+@media only screen and (min-width:830px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 29em;
+    }
+
+    #banner1_change{
+
+        font-size: 0.7em;
+        padding-top: 0.5em;
+    }
+    #banner2_changepadd{
+    
+        font-size: 0.7em;
+    }
+    #banner3_changepadd{
+    
+        font-size:0.7em;
+        padding-top: 2em;
+    }
+
+}
+@media only screen and (min-width:900px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 34em;
+    }
+
+}
+@media only screen and (min-width:965px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 39em;
+    }
+
+    #banner1_change{
+
+        font-size: 0.9em;
+        padding-top: 0.5em;
+    }
+    #banner2_changepadd{
+    
+        font-size: 0.9em;
+    }
+    #banner3_changepadd{
+    
+        font-size:0.9em;
+        padding-top: 2em;
+    }
+
+}
+@media only screen and (min-width: 1024px){
+
+    ul.nav2 {
+
+        font-size: 1em;
+
+    }
+    
+    .dropdown-icon_pad{
+
+
+        padding-left: 42em;
+    }
+    #susk_div{
+
+        display: flex; 
+
+    }
+
+    .susk_text{
+
+        font-size: 1em;
+
+    }
+
+    ul.foot {
+
+        display: inline-flex;
+        
+
+    }
+
+    .phone{
+
+ 
+        padding-left: 10%; 
+        padding-top: 2%;
+        font-size: 0.9em
+
+    }
+
+    .imgnews{
+
+        width: 50%;
+    }
+    #footer{
+
+        margin-top: 3em;
+    }
+
+    .halftone-bg{
+
+        margin-bottom: 32em;
+    }
+
+    #cosm_gigamax_banner{
+
+        padding-top: 6%; font-size: 1.2em;
+ 
+    }
+
+    #ftiaje_idan_banner{
+
+        font-size: 1em;
+    }
+    #jekina1{
+
+        font-size: 1.1em;
+    }
+
+    #cosmo_blue_banner{
+
+        font-size: 1.2em;
+    }
+    #ypo_but{
+        margin-left: 21em;
+        margin-right: 21em;
+
+    }
+
+
+
+}
+@media only screen and (min-width:1035px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 44em;
+    }
+
+}
+
+@media only screen and (min-width: 1075px){
+
+    .dropdown-icon_pad{
+
+
+        padding-left: 46em;
+    }
+    #hide_small_res{
+
+        display: none;
+    }
+    #show_small_res{
+
+        display: block;
+    }
+    .padd{
+
+
+        padding-left: 0em;
+
+
+    }
+
+}
+@media only screen and (min-width: 1112px){
+
+    .halftone-bg{
+
+        margin-bottom: 12em;
+        
+    }
+    #ypo_but{
+        margin-left: 25em;
+        margin-right: 25em;
+
+    }
+    #hide_small_res{
+    
+        display: block;
+    }
+    ul .nav2{
+
+        display: none;
+    }
+    #show_small_res{
+
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 1150px){
+    .padd{
+
+
+        padding-left: 3em;
+
+
+    }}
+    @media only screen and (min-width: 1200px){
+        .padd{
+    
+    
+            padding-left: 7em;
+    
+    
+        }
+    
+        #banner_but{
+
+            display: block;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        #banner1_change{
+
+            font-size: 0.9em;
+            padding-top: 0.5em;
+        }
+        #banner2_changepadd{
+        
+            font-size: 0.9em;
+        }
+        #banner3_changepadd{
+        
+            font-size:0.9em;
+            padding-top: 2em;
+        }}
+@media only screen and (min-width: 1280px){
+
+
+
+    .phone{
+
+        font-size: 1.1em
+    }
+    .imgnews{
+
+        width: 40%;
+    }
+    #cosm_gigamax_banner{
+
+        padding-top: 7%; font-size: 1.3em;
+ 
+    }
+    #ftiaje_idan_banner{
+
+        font-size: 1.2em;
+    }
+    #footer{
+
+        margin-top: 2em;
+    }
+    #cosmo_blue_banner{
+        font-size: 1.4em;
+    }
+
+    #ypo_but{
+        margin-left: 30em;
+        margin-right: 30em;
+
+    }
+    .padd{
+
+
+        padding-left: 13em;
+
+
+    }
+
+
+    
+    }
+    @media only screen and (min-width: 1350px){
+        .padd{
+
+
+            padding-left: 17em;
+    
+    
+        }
+    
+        #banner1_change{
+
+            font-size: 1.1em;
+            padding-top: 0.5em;
+        }
+        #banner2_changepadd{
+        
+            font-size: 1.1em;
+        }
+        #banner3_changepadd{
+        
+            font-size: 1.1em;
+            padding-top: 2em;
+        }
+    }
+        @media only screen and (min-width: 1425px){
+            .padd{
+    
+    
+                padding-left: 21em;
+        
+        
+            }}
+            @media only screen and (min-width: 1480px){
+                .padd{
+        
+        
+                    padding-left: 24em;
+            
+            
+                }}
+
+@media only screen and (min-width: 1536px){
+
+#cosm_gigamax_banner{
+
+ 
+    padding-top: 7%; 
+
+
+}
+#banner1_change{
+
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+#banner2_changepadd{
+
+    font-size: 1.2em;
+}
+#banner3_changepadd{
+
+    font-size: 1.2em;
+}
+#ypo_but{
+    margin-left: 37em;
+    margin-right: 37em;
+
+}
+
+#ftiaje_idan_banner{
+
+    font-size: 1.4em;
+}
+
+#footer{
+
+    margin-top: 4em;
+}
+.padd{
+
+
+    padding-left: 28em;
+
+
+}
+
+
+}

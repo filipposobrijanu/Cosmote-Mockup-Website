@@ -1,0 +1,158 @@
+@media only screen and (min-width: 375px){
+body {
+    font-family: Zona;
+    margin: 0;
+    background-color: #fefefe;
+  }
+
+@keyframes fade{
+
+  0%{
+
+    opacity: 0;
+    transform: translateY(-30px) scale(0.8);
+  }
+
+  100%{
+
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.intro{
+
+  animation: fade 0.5s;
+
+
+}
+
+@keyframes fade1{
+
+  0%{
+
+    opacity: 0;
+
+  }
+
+  100%{
+
+    opacity: 1;
+
+  }
+}
+.intro1{
+
+  
+  animation: fade1 1s;
+
+
+}
+
+#pos{
+
+  font-size: 1.5em;
+  
+  color: #030303;
+  padding: 0.5em;
+  margin: 0;
+  margin-top: 0em;
+  margin-bottom: 1em;
+
+
+
+}
+
+  #toptext{
+
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #030303;
+    background-color: #fefefe;
+    padding: 0.3em;
+    margin: 0;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    border-radius: 0.7em;
+
+
+}
+
+.halftone-bgg {
+  background: 
+  linear-gradient(100deg, #2f8b1e 25%, transparent 25%) -20px 0,
+  linear-gradient(355deg, #54ac44 25%, transparent 25%) -10px 0,
+  linear-gradient(225deg, #2f8b1e 25%, transparent 25%),
+  linear-gradient(300deg, #54ac44 25%, transparent 25%);	
+  background-size: 12em 1em;
+  background-color: #469c36;
+  padding: 2em 0 2em 0;
+  margin-top: 0;
+  margin-bottom: 0em;
+}
+
+
+.footext{
+
+        flex-wrap: wrap;
+        color: #00afe9;
+        font-size: 1em;
+        text-decoration: none;
+
+}
+
+
+#result{
+
+  margin-top: 1em;
+  color: black;
+  font-size: 1.1em;
+  
+}
+#result1{
+
+  margin-top: 2em;
+  color: black;
+  font-size: 1.1em;
+  
+}
+
+
+#form2{
+
+  display: none;
+}
+
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: #fefefe;
+    font-family: Zona;
+
+  }
+
+  .anaka:hover{
+
+    color: #eeeeee;
+  
+  }
+
+  #ypologismos_btn:hover{
+
+    background-color: #469c36;
+    color: #f7f7f7;
+    border-color: #469c36;
+  
+  }
+
+  #xronos:focus{
+
+
+        border: 0.15em solid #469c36;
+        outline: 0.1em solid #469c36;
+
+  }
+}

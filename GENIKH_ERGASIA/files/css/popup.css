@@ -1,0 +1,71 @@
+
+
+.form-popup{
+    font-family: Zona;
+}
+
+.form-popup {
+
+    display: block;
+    position: fixed;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.newyearicon{
+
+
+    width: 9em;
+
+}
+
+.form-container {
+    max-width: 20em;
+    padding: 3em;
+    border-radius: 1.5em;
+    background-color: white;
+    filter: drop-shadow(0.2em 0.2em 1em rgb(107, 107, 107));
+    text-align: center;
+
+}
+
+.blurbg{
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 8;
+    filter: opacity(40%);
+    
+}
+.kleisimo_but{
+
+    
+    background-color: #f7f7f7;
+    color: #030303;
+    padding: 0.8em 1.2em;
+    border: none;
+    font-family: Zona;
+    font-size: 1em;
+    border-radius: 0.7em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 0.05em solid #030303;
+    margin-top: 1em;
+
+}
+
+.kleisimo_but:hover{
+
+    background-color: #030303;
+    color: #f7f7f7;
+    border-color: #030303;
+
+}
+

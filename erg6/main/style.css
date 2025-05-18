@@ -1,0 +1,527 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../files/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Zona;
+  src: url(../files/OpenSans-Regular.ttf);
+}
+@keyframes fade-down{
+
+  0%{
+
+      opacity: 0;
+      transform: translateY(-30px) scale(0.9);
+  }
+
+  100%{
+
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+  }
+}
+
+.labelhead,input,.trigger,.oroi,select,.den-exeis,#hrlogin,.logo,.social,.footext,.tmobilelogo,.tablee{
+
+  animation: fade-down 1s;
+
+}
+#bgcolor{
+  padding: 2.5em;
+}
+
+
+.apar{
+
+  color: rgb(223, 0, 0);
+
+}
+
+input[type=checkbox] {
+
+  accent-color: #469c36;
+
+}
+
+table{
+
+  width: 80em;
+  
+}
+
+.BOTTOMannouncement{
+
+  background-color:#00afe9;
+  margin: 0;
+  font-family:Zona;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+
+}
+body {
+    font-family: Zona;
+    margin: 0;
+    
+  }
+
+  ::selection {
+
+    background: #1f508f;
+    color: white;
+  
+  }
+  .spacer{
+
+
+    background-color: #d1ddee;
+    padding: 0.1em;
+
+  }
+
+  form {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: #fefefe;
+    font-family: Zona;
+
+  }
+  img.social{
+            
+    margin: 0;
+    width: 2em;     
+
+}
+img.social:hover{
+
+    filter: brightness(50%);
+
+}
+.hide{
+
+  opacity: 0;
+  right: -25%;
+}
+.show{
+
+  opacity: 1;
+  right: 2%;
+}
+.arrow{
+
+  margin: 0;
+  position: fixed;
+  width:3em;
+  right: 2%;
+  bottom: 3%;
+  filter: drop-shadow(0em 0em 0.2em rgb(34, 34, 34));
+  transition: all 2s;
+}
+.arrow:hover{
+
+  filter: opacity(87%);
+
+}
+
+.logo{
+
+  width: 17em;
+  margin: 0;
+  padding: 2em;
+  
+
+}
+
+.navhr1{
+
+  border: none;
+  height: 0.15em; 
+  margin: 0;
+  background-color: #469c36;
+  
+
+}
+
+.mon-pros{
+
+  font-weight: bold;
+  color: #f7f7f7;
+  border-bottom: 0.15em solid #f7f7f7;
+  padding-bottom: 0.01em;
+
+}
+.mon-pros:hover{
+
+  color: #030303;
+  border-color: #030303;
+
+}
+.announcement {
+
+  background-color: #469c36;
+  margin: 0;
+  color: #f7f7f7;
+  font-family:Zona;
+  font-size: 0.9em;
+  padding: 0.6em;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+}
+
+    .footext{
+
+      flex-wrap: wrap;
+      color: #00afe9;
+      font-size: 1em;
+      text-decoration: none;
+
+}
+.pad{
+
+  padding: 0 3em 0 3em;
+}
+.footext:hover{
+
+  text-decoration: underline;
+}
+ul.foot1 {
+
+  list-style-type: none;
+  
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  
+}
+
+ul.foot {
+
+
+  list-style-type: none;
+  margin: 2em;
+  margin-top: 0;
+  display: inline-flex;
+  padding: 1em;
+  overflow: hidden;
+  color: #1f508f;
+  
+}
+
+div.container {
+
+    text-align: center;
+
+}
+
+.tmobilelogo{
+
+  margin-left: 5%;
+  width: 12em;
+}
+.labelhead{
+
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #030303;
+  margin: 0;
+  margin-top: 0.8em;
+  margin-bottom: 1.8em;
+  border-radius: 0.7em;
+
+
+}
+.button-log{
+
+  background-color: #1f508f; 
+  color: #f7f7f7;
+  padding: 0.8em 2em;
+  font-family: Zona;
+  font-size: 1em;
+  border-radius: 0.7em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0;
+  border: none;
+  width: 100%;
+
+}
+
+.button-log:hover{
+
+  background-color: #113462;
+  color: #f7f7f7;
+
+
+}
+
+.button {
+
+
+  background-color: #f7f7f7; 
+  color: #030303;
+  padding: 0.8em 3em;
+  font-family: Zona;
+  font-size: 1em;
+  border-radius: 0.7em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1em;
+  border: 0.05em solid #030303;
+
+}
+
+.button:hover{
+
+  background-color: #327626;
+  color: #f7f7f7;
+  border-color: #327626;
+
+}
+.inputt, select {
+  width: 100%;
+  padding: 0.75em;
+  border-radius: 0.7em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  box-sizing: border-box;
+  border: 0.05em solid #565b65;
+  outline: 0.05em solid #565b65;
+  caret-color: rgb(60, 60, 60);
+
+}
+
+  .poin:hover{
+
+    cursor: pointer;
+    
+  }
+
+  .poin{
+
+    margin-bottom: 1.5em;
+  }
+
+  #poin1:hover{
+
+    cursor: pointer;
+  }
+  .inputt:focus{
+    border: 0.15em solid #1f508f;
+    outline: 0.1em solid #1f508f;
+    
+  }
+  
+  input[type='date']:focus {
+    border: 0.15em solid #469c36;
+    outline: 0.1em solid #469c36;
+  }
+  
+  #check{
+  
+      width: 1em;
+      margin-bottom: 0.3em;
+      display: block;
+      padding: 0;
+      border: none;
+      outline: none;
+  
+  
+  }
+  ::placeholder{
+  
+      color: #8c8c8c;
+      font-family: Zona;
+  }
+#check:hover{
+
+  cursor: pointer;
+  
+}
+#cancel {
+  background-color: #030303;
+  color: #f7f7f7;
+}
+#cancel:hover{
+
+  filter: opacity(80%);
+}
+
+  
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.oroi{
+  margin: 0;
+  font-size: 0.9em;
+  color: #030303;
+}
+  .pow{
+
+    font-family: Poppins;
+    font-size: 0.7em;
+    margin: 0;
+    color: #f7f7f7;
+    margin-left: 3em;
+
+
+}
+#toptext{
+
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #f7f7f7;
+  background-color: #469c36;
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.1em;
+  margin-bottom: 0.8em;
+  border-radius: 0.7em;
+
+}
+#toptext33{
+
+font-size: 2.2em;
+font-weight: bold;
+padding: 0.3em;
+margin: 0;
+text-align: center;
+margin-top: 0.1em;
+margin-bottom: 0;
+border-radius: 0.7em;
+color: #030303;
+
+
+}
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #f7f7f7;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #469c36;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #f7f7f7;
+}
+ 
+.anaka:hover{
+
+  color: #eeeeee;
+
+}
+
+
+.hide {
+
+  opacity:0;
+  
+}
+.show {
+
+  opacity:1;
+
+}
+  
+.frash{
+
+
+  opacity: 0;
+  font-size: 0.8em;
+  margin: 0;
+  margin-bottom: 0;
+  transition: margin-bottom 0.2s ease-in-out , opacity 0.2s ease-out;
+  color:#565b65;
+
+
+}
+
+.trigger:hover + .inputt + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+.trigger:hover + select + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+.trigger:hover + br + .poin + .poin  + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+#bash{
+
+  display: none;
+
+}
+.den-exeis{
+
+  font-size: 0.9em;
+  margin-top: 2em;
+  color: #030303;
+  
+}
+
+.ftiaje{
+
+  font-weight: 800;
+  cursor: pointer;
+  border-bottom: 0.13em solid #030303;
+  padding-bottom: 0.01em;
+  text-decoration: none;
+}
+.ftiaje:hover{
+
+  color: #565b65;
+  border-color: #565b65;
+
+}
+#toptext31{
+
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: 0.3em;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 1em;
+
+  color: #030303;
+  font-family: Zona;
+}
+
+

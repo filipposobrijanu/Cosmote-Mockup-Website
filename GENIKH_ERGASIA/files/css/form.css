@@ -1,0 +1,335 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins-Regular.ttf);
+  }
+  @font-face {
+    font-family: Zona;
+    src: url(../../fonts/OpenSans-Regular.ttf);
+  }
+  @keyframes fade-down{
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }
+  .labelhead,input,.trigger,.oroi,select,.den-exeis,#hrlogin{
+
+    animation: fade-down 1s;
+
+  }
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: #fefefe;
+    font-family: Zona;
+    
+  }
+  .spacer{
+
+    margin-top: 2em;
+    background-color: #d1ddee;
+    padding: 0.1em;
+
+  }
+  .labelhead{
+
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #030303;
+    margin: 0;
+    margin-top: 0.8em;
+    margin-bottom: 1.8em;
+    border-radius: 0.7em;
+
+
+}
+
+.button {
+
+
+  background-color: #f7f7f7; 
+  color: #030303;
+  padding: 0.8em 3em;
+  font-family: Zona;
+  font-size: 1em;
+  border-radius: 0.7em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1em;
+  border: 0.05em solid #030303;
+
+}
+.button-log{
+
+  background-color: #1f508f; 
+  color: #f7f7f7;
+  padding: 0.8em 2em;
+  font-family: Zona;
+  font-size: 1em;
+  border-radius: 0.7em;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0;
+  border: none;
+  width: 100%;
+
+}
+
+.button-log:hover{
+
+  background-color: #113462;
+  color: #f7f7f7;
+
+
+}
+
+.button:hover{
+
+  background-color: #327626;
+  color: #f7f7f7;
+  border-color: #327626;
+
+}
+
+.inputt, select {
+    width: 100%;
+    padding: 0.75em;
+    border-radius: 0.7em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    box-sizing: border-box;
+    border: 0.05em solid #565b65;
+    outline: 0.05em solid #565b65;
+    caret-color: rgb(60, 60, 60);
+
+  }
+
+  .poin:hover{
+
+    cursor: pointer;
+    
+  }
+
+  .poin{
+
+    margin-bottom: 1.5em;
+  }
+
+  #poin1:hover{
+
+    cursor: pointer;
+  }
+  .inputt:focus{
+  border: 0.15em solid #1f508f;
+  outline: 0.1em solid #1f508f;
+  
+}
+
+input[type='date']:focus {
+  border: 0.15em solid #469c36;
+  outline: 0.1em solid #469c36;
+}
+
+#check{
+
+    width: 1em;
+    margin-bottom: 0.3em;
+    display: block;
+    padding: 0;
+    border: none;
+    outline: none;
+
+
+}
+::placeholder{
+
+    color: #8c8c8c;
+    font-family: Zona;
+}
+#check:hover{
+
+  cursor: pointer;
+  
+}
+#cancel {
+    background-color: #030303;
+    color: #f7f7f7;
+  }
+  #cancel:hover{
+
+    filter: opacity(80%);
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  .oroi{
+    margin: 0;
+    font-size: 0.9em;
+    color: #030303;
+  }
+
+#toptext{
+
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #f7f7f7;
+    background-color: #469c36;
+    padding: 0.5em;
+    margin: 0;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: 0.8em;
+    border-radius: 0.7em;
+
+}
+#toptext33{
+
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: 0.3em;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.1em;
+  margin-bottom: 0;
+  border-radius: 0.7em;
+  color: #030303;
+
+
+}
+
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #f7f7f7;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #469c36;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #f7f7f7;
+}
+ 
+.anaka:hover{
+
+  color: #eeeeee;
+
+}
+
+
+.hide {
+
+  opacity:0;
+  
+}
+.show {
+
+  opacity:1;
+
+}
+  
+.frash{
+
+  opacity: 0;
+  font-size: 0.8em;
+  margin: 0;
+  margin-bottom: 0;
+  transition: margin-bottom 0.2s ease-in-out , opacity 0.2s ease-out;
+  color:#565b65;
+
+}
+
+.trigger:hover + .inputt + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+
+.trigger:hover + select + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+.trigger{
+
+    color: #030303;
+}
+
+.trigger:hover + br + .poin + .poin  + .frash{
+  
+  opacity: 1;
+  margin-bottom: 1.5em;
+
+}
+.apar{
+
+    color: rgb(223, 0, 0);
+
+}
+
+input[type=checkbox] {
+
+    accent-color: #469c36;
+
+}
+#bash{
+
+  display: none;
+
+}
+.den-exeis{
+
+  font-size: 0.9em;
+  margin-top: 2em;
+  color: #030303;
+  
+}
+
+.ftiaje{
+
+  font-weight: 800;
+  cursor: pointer;
+  border-bottom: 0.13em solid #030303;
+  padding-bottom: 0.01em;
+  text-decoration: none;
+}
+.ftiaje:hover{
+
+  color: #565b65;
+  border-color: #565b65;
+
+}

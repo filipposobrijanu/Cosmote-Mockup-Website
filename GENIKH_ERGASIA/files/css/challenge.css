@@ -1,0 +1,162 @@
+@media only screen and (min-width: 375px){
+
+
+@keyframes fade-down{
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }
+
+  .top,#inp,#button,.foot_text{
+
+    animation: fade-down 1s;
+
+  }
+
+.bor{
+
+    max-width: 35em;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    padding: 3em;
+    border-radius: 3em;
+
+}
+
+.top{
+
+    text-align: center;
+    margin: 0;
+}
+.top1{
+
+    font-size: 3em;
+    margin: 0;
+    padding: 0.15em;
+    transition: all 0.4s;
+}
+.top2{
+
+    font-size: 1em;
+    margin-top: 1em;
+    text-decoration: underline;
+}
+
+.top1:hover{
+
+    background-color: #469c36;
+    color: #f7f7f7;
+    border-radius: 2em;
+
+}
+#inp{
+
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    border: 0.05em solid #469c36;
+    outline: 0.1em solid #469c36;
+    text-align: center;
+    
+}
+#inp:hover{
+
+    border: 0.05em solid #1f508f;
+    outline: 0.1em solid #1f508f;
+}
+#inp:focus{
+
+    border: 0.05em solid #1f508f;
+    outline: 0.1em solid #1f508f;
+    
+}
+section{
+
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+#button{
+    
+    border-radius: 0.5em;
+    background-color: #469c36;
+    color: #f7f7f7;
+    margin-top: 1em;
+    padding: 0.7em;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+}
+
+#button:hover{
+    
+    background-color: #1f508f;
+    cursor: pointer;
+
+}
+
+
+.foot_text{
+
+    font-family: Poppins;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 0;
+    margin-top:3em;
+
+}
+
+.ari{
+
+    background-color: #469c36;
+    padding: 0.3em;
+    border-radius: 0.6em;
+    font-weight: bold;
+    color: #f7f7f7;
+}
+.den{
+
+    background-color: #1f508f;
+    padding: 0.3em;
+    border-radius: 0.6em;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+.diaireitai{
+
+    background-color: #327626;
+    padding: 0.3em;
+    color: #f7f7f7;
+    border-radius: 0.6em;
+    font-weight: bold;
+}
+
+
+section{
+
+    background-image: url("../../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    
+    padding-bottom: 3em;
+}
+}
+@media only screen and (min-width: 768px){
+
+
+
+
+}

@@ -1,0 +1,1334 @@
+@media only screen and (min-width: 375px)
+
+{
+    body{
+
+        margin: 0;
+        background-color: #fefefe;
+    }
+    ul.nav {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 3vw;
+        background-color: #eeeeee;
+        overflow: hidden;
+        font-size: 4vw;
+        border-radius: 2vw;
+
+    }
+    li{
+        float: left;
+    }
+    ul a {
+        display:table;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 1.6vw 1.6vw;
+        text-decoration: none;
+        color: black;
+        border-radius: 2vw;
+        margin: 0.5vw;
+    }
+    li.men a:hover:not(.active) {
+
+        color:#00afe9;
+    }
+    .active {
+        background-color:#00afe9;
+        color: white;
+    }
+    .announcement {
+
+        background-color: #469c36;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 4vw;
+        padding:2.5vw;
+        text-align: center;}
+    .announcement1 {
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 4vw;
+        padding: 0.5vw;
+        text-align: center;
+    }
+    .logo{
+
+        width: 50vw;
+        margin: 0;
+        padding: 0.6vw;
+    }
+    .arrow{
+
+        margin: 0;
+        position: fixed;
+        width:12vw;
+        right: 1%;
+        bottom: 1%;
+    }
+    .banner{
+        display: none;
+        margin: 0;
+        width: 100%;
+    }
+    .newsh{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#1f508f;
+        font-size: 4.2vw;
+        padding: 0.9vw;
+        margin-top: 0.7vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+
+    }
+    .datenews{
+
+        font-size: 2.8vw; 
+        text-decoration: underline;
+    }
+    .imgnews{
+        margin: 0; 
+        width: 90%;
+        border-radius: 4vw;
+
+    }
+    .newsp{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#9fa8b6;
+        font-size: 3.3vw;
+        padding: 0.8vw;
+        margin-bottom: 1vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+
+    }
+    .top-text{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:black;
+        font-size: 6vw;
+        padding: 2vw;
+        margin-bottom: 1vw;
+        background-color:#eeeeee;
+
+    }
+    .top-text1{
+
+        text-align: center;
+        background-color:#469c36;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 3vw;
+        padding: 1.3vw;
+        border-radius: 3vw;
+        margin-left: 34vw;
+        margin-right: 34vw;
+    }
+    .top-p{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding: 1.5vw;
+    }
+    .prosforaimg{
+
+        width: 40%;
+    }
+    .enaskosmos{
+        font-family: 'Helvetica';
+        font-size: 2.5vw;
+        margin-top: 2vw;
+        display: none;
+    }
+    .prosfora{
+
+        text-align: center;
+        background-color:#eeeeee;
+        margin: 0;
+        margin-top: 2vw;
+        padding: 2vw;
+        border-radius: 4vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        color: black;
+        font-family: 'Helvetica';
+        margin-bottom: 3vw;
+
+    }
+    ul.pros {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 0.6vw;
+        overflow: hidden;
+        text-align: center;
+        font-size: 0.8vw;
+
+    }
+    .banner1{
+
+        display: none;
+        margin-top: 2vw;
+        width: 75%;
+        border-radius: 1vw;
+    }
+    .prosforacos{
+
+        width: 55%;
+        padding: 1vw;
+        border-radius: 4vw;
+        margin-top: 1.5vw;
+        margin-bottom: 2vw;
+    }
+    .phone{
+        display: none;
+    }
+    .destes{
+
+        background-color:#00afe9;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 4vw;
+        border-radius: 2.5vw;
+        padding: 1VW;
+        margin-left: 34vw;
+        margin-right: 34vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        overflow: hidden;
+    }
+    .proscos{
+        
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        background-color:white;
+        padding: 0.9vw;
+        text-align: center;
+        font-size: 4vw;
+        border-radius: 2vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        color: black;
+    }
+
+    .tmobile{
+
+        margin: 0;
+        width: 8vw;
+        display: block;
+    }
+
+    ul.foot {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        color: #1f508f;
+        
+    }
+    .gigamax{
+        text-align: center;
+        font-size:5vw;
+    }
+    .gigapar{
+
+        text-align: left; 
+        padding-left: 4vw; 
+        font-size: 3.4vw;
+    }
+    ul.foot1 {
+
+        list-style-type: none;
+        margin-top: 1vw;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        
+    }
+    .mathe{
+
+        background-color:#1f508f;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 4.5vw;
+        border-radius: 2vw;
+        padding: 2VW;
+        overflow: hidden;
+    }
+    .tmobilelogo{
+
+        margin-left: 5%;
+        width: 35vw;
+    }
+    .footext{
+
+        color: #00afe9;
+        font-size: 3vw;
+        padding: 2vw 7vw;
+        text-decoration: underline;
+
+    }
+
+    div.container {
+        text-align: center;
+    }
+    img.social{
+        
+        margin: 0;
+        width: 5.5vw;
+        padding: 0vw 6vw;
+        margin-top: 4vw;
+    }
+
+    .BOTTOMannouncement{
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        padding-left: 3vw;
+        padding-bottom: 1.5vw;
+        padding-top: 1.5vw;
+        font-size: 3vw;
+    }
+    table {
+        background-color: white;
+        border-radius: 3vw;
+        width:85%  ;
+    }
+    .logotable{
+
+        width: 90%;
+
+    }
+}
+@media only screen and (min-width: 768px)
+
+{
+    .phone{
+        display: block;
+    }
+    body{
+
+        margin: 0;
+        background-color: #fefefe;
+    }
+    ul.nav {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 1vw;
+        background-color: #eeeeee;
+        overflow: hidden;
+        font-size: 1.5vw;
+        border-radius: 0.5vw;
+
+    }
+    li{
+        float: left;
+    }
+    ul a {
+        display:table;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 0.8vw 0.8vw;
+        text-decoration: none;
+        color: black;
+        border-radius: 0.5vw;
+        margin: 0.3vw;
+    }
+    li.men a:hover:not(.active) {
+
+        color:#00afe9;
+    }
+    .active {
+        background-color:#00afe9;
+        color: white;
+    }
+    .announcement {
+
+        background-color: #469c36;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 1.5vw;
+        padding: 0.5vw;
+        text-align: center;}
+    .announcement1 {
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 2vw;
+        padding: 0.5vw;
+        text-align: center;
+    }
+    .logo{
+
+        width: 25vw;
+        margin: 0;
+        padding: 0.6vw;
+    }
+    .arrow{
+
+        margin: 0;
+        position: fixed;
+        width:6vw;
+        right: 1%;
+        bottom: 1%;
+    }
+    .banner{
+
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+    .newsh{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#1f508f;
+        font-size: 2.4vw;
+        padding: 0.7vw;
+        margin-top: 0.7vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+    }
+    .datenews{
+
+        font-size: 1.6vw; 
+        text-decoration: underline;
+    }
+    .imgnews{
+        margin: 0; 
+        width: 50%;
+        border-radius: 1vw;
+        display: inline-block;
+    }
+    .newsp{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#9fa8b6;
+        font-size: 1.8vw;
+        padding: 0.5vw;
+        margin-bottom: 1vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+
+    }
+    .top-text{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:black;
+        font-size: 3vw;
+        padding: 0.7vw;
+        margin-bottom: 1vw;
+        background-color:#eeeeee;
+
+    }
+    .top-text1{
+
+        text-align: center;
+        background-color:#469c36;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1.5vw;
+        padding: 0.6vw;
+        border-radius: 2vw;
+        margin-left: 42vw;
+        margin-right: 42vw;
+    }
+    .top-p{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding: 1.5vw;
+    }
+    .prosforaimg{
+
+        width: 20%;
+    }
+    .enaskosmos{
+        font-family: 'Helvetica';
+        font-size: 2.5vw;
+        margin-top: 2vw;
+        display:block;
+    }
+    .prosfora{
+
+        text-align: center;
+        background-color:#eeeeee;
+        margin: 0;
+        margin-top: 2vw;
+        padding: 1vw;
+        border-radius: 2vw;
+        margin-left: 35vw;
+        margin-right: 35vw;
+        color: black;
+        font-family: 'Helvetica';
+
+    }
+    ul.pros {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 0.6vw;
+        overflow: hidden;
+        text-align: center;
+        font-size: 0.8vw;
+
+    }
+    .banner1{
+
+        display:inline-block;
+        margin-top: 2vw;
+        width: 75%;
+        border-radius: 1vw;
+
+    }
+    .prosforacos{
+
+        width: 35%;
+        padding: 0.5vw;
+        border-radius: 2vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .destes{
+
+        background-color:#00afe9;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 2.1vw;
+        border-radius: 1.5vw;
+        padding: 0.6VW;
+        margin-left: 41vw;
+        margin-right: 41vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        overflow: hidden;
+    }
+    .proscos{
+        
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        background-color:white;
+        padding: 0.6vw;
+        text-align: center;
+        font-size: 2vw;
+        border-radius: 1vw;
+        margin-left: 37vw;
+        margin-right: 37vw;
+        color: black;
+    }
+
+    .tmobile{
+
+        margin: 0;
+        width: 8vw;
+        display: block;
+    }
+
+    ul.foot {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        color: #1f508f;
+        
+    }
+    .gigamax{
+        text-align: center;
+        font-size:1.8vw;
+    }
+    .gigapar{
+
+        text-align: left; 
+        padding-left: 2vw; 
+        font-size: 1.5vw;
+    }
+    ul.foot1 {
+
+        list-style-type: none;
+        margin-top: 1vw;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        
+    }
+    .mathe{
+
+        background-color:#1f508f;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 2vw;
+        border-radius: 1vw;
+        padding: 1VW;
+        overflow: hidden;
+    }
+    .tmobilelogo{
+
+        margin-left: 5%;
+        width: 20vw;
+    }
+    .footext{
+
+        color: #00afe9;
+        font-size: 1.6vw;
+        padding: 0.8vw 4vw;
+        text-decoration: underline;
+
+    }
+
+    div.container {
+        text-align: center;
+    }
+    img.social{
+        
+        margin: 0;
+        width: 2.7vw;
+        padding: 0vw 4vw;
+    }
+
+    .BOTTOMannouncement{
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        padding-left: 3vw;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+        font-size: 1.5vw;
+    }
+    table {
+        background-color: white;
+        border-radius: 2vw;
+        width: 60%  ;
+    }
+    .logotable{
+
+        width: 80%;
+
+    }
+}
+@media only screen and (min-width: 1000px)
+
+{
+    .phone{
+        display: block;
+    }
+    body{
+
+        margin: 0;
+        background-color: #fefefe;
+    }
+    ul.nav {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 0.8vw;
+        background-color: #eeeeee;
+        overflow: hidden;
+        font-size: 1.3vw;
+        border-radius: 0.7vw;
+
+    }
+    li{
+        float: left;
+    }
+    ul a {
+        display:table;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 0.8vw 0.8vw;
+        text-decoration: none;
+        color: black;
+        border-radius: 0.5vw;
+        margin: 0.3vw;
+    }
+    li.men a:hover:not(.active) {
+
+        color:#00afe9;
+    }
+    .active {
+        background-color:#00afe9;
+        color: white;
+    }
+    .announcement {
+
+        background-color: #469c36;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 1.3vw;
+        padding: 0.5vw;
+        text-align: center;}
+    .announcement1 {
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 1.5vw;
+        padding: 0.5vw;
+        text-align: center;
+    }
+    .logo{
+
+        width: 21vw;
+        margin: 0;
+        padding: 0.6vw;
+    }
+    .arrow{
+
+        margin: 0;
+        position: fixed;
+        width:5vw;
+        right: 1%;
+        bottom: 1%;
+    }
+    .banner{
+
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+    .newsh{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#1f508f;
+        font-size: 2.1vw;
+        padding: 0.7vw;
+        margin-top: 0.7vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+    }
+    .datenews{
+
+        font-size: 1.2vw; 
+        text-decoration: underline;
+    }
+    .imgnews{
+        margin: 0; 
+        width: 45%;
+        border-radius: 1vw;
+        display: inline-block;
+    }
+    .newsp{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#9fa8b6;
+        font-size: 1.5vw;
+        padding: 0.5vw;
+        margin-bottom: 1vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+
+    }
+    .top-text{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:black;
+        font-size: 2.6vw;
+        padding: 0.7vw;
+        margin-bottom: 1vw;
+        background-color:#eeeeee;
+
+    }
+    .top-text1{
+
+        text-align: center;
+        background-color:#469c36;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1.3vw;
+        padding: 0.6vw;
+        border-radius: 2vw;
+        margin-left: 43vw;
+        margin-right: 43vw;
+    }
+    .top-p{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding: 1.5vw;
+    }
+    .prosforaimg{
+
+        width: 18%;
+    }
+    .enaskosmos{
+        font-family: 'Helvetica';
+        font-size: 2.3vw;
+        margin-top: 2vw;
+        display:block;
+    }
+    .prosfora{
+
+        text-align: center;
+        background-color:#eeeeee;
+        margin: 0;
+        margin-top: 2vw;
+        padding: 1vw;
+        border-radius: 2vw;
+        margin-left: 35vw;
+        margin-right: 35vw;
+        color: black;
+        font-family: 'Helvetica';
+
+    }
+    ul.pros {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 0.6vw;
+        overflow: hidden;
+        text-align: center;
+        font-size: 0.8vw;
+
+    }
+    .banner1{
+
+        display:inline-block;
+        margin-top: 2vw;
+        width: 75%;
+        border-radius: 1vw;
+
+    }
+    .prosforacos{
+
+        width: 30%;
+        padding: 0.5vw;
+        border-radius: 2vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .destes{
+
+        background-color:#00afe9;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1.7vw;
+        border-radius: 1.5vw;
+        padding: 0.6VW;
+        margin-left: 41vw;
+        margin-right: 41vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        overflow: hidden;
+    }
+    .proscos{
+        
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        background-color:white;
+        padding: 0.8vw;
+        text-align: center;
+        font-size: 1.7vw;
+        border-radius: 1vw;
+        margin-left: 37vw;
+        margin-right: 37vw;
+        color: black;
+    }
+
+    .tmobile{
+
+        margin: 0;
+        width: 8vw;
+        display: block;
+    }
+
+    ul.foot {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        color: #1f508f;
+        
+    }
+    .gigamax{
+        text-align: center;
+        font-size:1.6vw;
+    }
+    .gigapar{
+
+        text-align: left; 
+        padding-left: 2vw; 
+        font-size: 1.3vw;
+    }
+    ul.foot1 {
+
+        list-style-type: none;
+        margin-top: 1vw;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        
+    }
+    .mathe{
+
+        background-color:#1f508f;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1.7vw;
+        border-radius: 1.3vw;
+        padding: 1VW;
+        overflow: hidden;
+    }
+    .tmobilelogo{
+
+        margin-left: 5%;
+        width: 17vw;
+    }
+    .footext{
+
+        color: #00afe9;
+        font-size: 1.4vw;
+        padding: 0.8vw 4vw;
+        text-decoration: underline;
+
+    }
+
+    div.container {
+        text-align: center;
+    }
+    img.social{
+        
+        margin: 0;
+        width: 2.3vw;
+        padding: 0vw 4vw;
+    }
+
+    .BOTTOMannouncement{
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        padding-left: 3vw;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+        font-size: 1.3vw;
+    }
+    table {
+        background-color: white;
+        border-radius: 2vw;
+        width: 60%  ;
+    }
+    .logotable{
+
+        width: 80%;
+
+    }
+}
+@media only screen and (min-width: 1550px)
+
+{
+
+    .phone{
+        display: block;
+    }
+    .imgnews{
+        margin: 0; 
+        width: 35%;
+        border-radius: 1vw;
+        display: inline-block;
+    }
+
+    .datenews{
+
+        font-size: 0.9vw; 
+        text-decoration: underline;
+    }
+    .mathe{
+        
+        background-color:#1f508f;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1.3vw;
+        border-radius: 1vw;
+        padding: 0.6VW;
+        overflow: hidden;
+    }
+    
+    .gigapar{
+
+        text-align: left; 
+        padding-left: 2vw; 
+        font-size: 0.8vw;
+    }
+    .gigamax{
+        text-align: center;
+        font-size:1.2vw;
+    }
+    body{
+
+        margin: 0;
+        background-color: #fefefe;
+    }
+    .tmobilelogo{
+
+        margin-left: 5%;
+        width: 10vw;
+    }
+    .enaskosmos{
+        font-family: 'Helvetica';
+        font-size: 2vw;
+        margin-top: 2vw;
+        display: block;
+    }
+    .destes{
+        
+        background-color:#00afe9;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1.3vw;
+        border-radius: 1vw;
+        padding: 0.6VW;
+        margin-left: 44vw;
+        margin-right: 44vw;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+        overflow: hidden;
+    }
+    ul.nav {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 0.6vw;
+        background-color: #eeeeee;
+        overflow: hidden;
+        font-size: 0.8vw;
+        border-radius: 0.5vw;
+
+    }
+    li{
+        float: left;
+    }
+    ul a {
+        display:table;
+        background-color: #ffffff;
+        text-align: center;
+        padding: 0.6vw 0.6vw;
+        text-decoration: none;
+        color: black;
+        border-radius: 0.5vw;
+        margin: 0.1vw;
+    }
+    li.men a:hover:not(.active) {
+
+        color:#00afe9;
+    }
+    .active {
+        background-color:#00afe9;
+        color: white;
+    }
+    .announcement {
+
+        background-color: #469c36;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding: 0.5vw;
+        text-align: center;}
+    .announcement1 {
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding: 0.5vw;
+        text-align: center;
+    }
+    .logo{
+
+        width: 15vw;
+        margin: 0;
+        padding: 0.6vw;
+    }
+    .arrow{
+
+        margin: 0;
+        position: fixed;
+        width:3.5vw;
+        right: 1%;
+        bottom: 1%;
+    }
+    .banner{
+
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+    .newsh{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#1f508f;
+        font-size: 1.3vw;
+        padding: 0.5vw;
+        margin-top: 0.7vw;
+
+    }
+    .newsp{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        color:#9fa8b6;
+        font-size: 1vw;
+        padding: 0.5vw;
+        margin-bottom: 1vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+
+    }
+    .top-text{
+
+        text-align: center;
+        margin: 0;
+        font-family:'Helvetica';
+        color:black;
+        font-size: 2vw;
+        padding: 0.7vw;
+        margin-bottom: 1vw;
+        background-color:#eeeeee;
+
+    }
+    .top-text1{
+
+        text-align: center;
+        background-color:#469c36;
+        margin: 0;
+        font-family:'Helvetica';
+        color: white;
+        font-size: 1vw;
+        padding: 0.6vw;
+        border-radius: 2vw;
+        margin-left: 44vw;
+        margin-right: 44vw;
+    }
+    .top-p{
+
+        text-align: left;
+        margin: 0;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding: 1.5vw;
+    }
+    .prosforaimg{
+
+        width: 15%;
+    }
+    .prosfora{
+
+        text-align: center;
+        background-color:#eeeeee;
+        margin: 0;
+        margin-top: 2vw;
+        padding: 1vw;
+        border-radius: 2vw;
+        margin-left: 35vw;
+        margin-right: 35vw;
+        color: black;
+        font-family: 'Helvetica';
+
+    }
+    ul.pros {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        padding: 0.6vw;
+        overflow: hidden;
+        text-align: center;
+        font-size: 0.8vw;
+
+    }
+    .banner1{
+
+        display:inline-block;
+        margin-top: 2vw;
+        width: 75%;
+        border-radius: 1vw;
+
+    }
+    .prosforacos{
+
+        width: 25%;
+        padding: 0.5vw;
+        border-radius: 2vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .proscos{
+        
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: block;
+        background-color:white;
+        padding: 0.6vw;
+        text-align: center;
+        font-size: 1vw;
+        border-radius: 1vw;
+        margin-left: 41vw;
+        margin-right: 41vw;
+        color: black;
+    }
+
+    .tmobile{
+
+        margin: 0;
+        width: 8vw;
+        display: block;
+    }
+
+    ul.foot {
+
+        font-family:'Helvetica';
+        list-style-type: none;
+        margin: 0;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        color: #1f508f;
+        
+    }
+    ul.foot1 {
+
+        list-style-type: none;
+        margin-top: 1vw;
+        display: inline-block;
+        text-align: left;
+        padding: 1vw;
+        overflow: hidden;
+        
+    }
+    .footext{
+
+        color: #00afe9;
+        font-size: 0.8vw;
+        padding: 0.8vw 4vw;
+        text-decoration: underline;
+
+    }
+
+    div.container {
+        text-align: center;
+    }
+    img.social{
+        
+        margin: 0;
+        width: 1.5vw;
+        padding: 0vw 4vw;
+    }
+
+    .BOTTOMannouncement{
+
+        background-color:#00afe9;
+        margin: 0;
+        color: white;
+        font-family:'Helvetica';
+        font-size: 1vw;
+        padding-left: 3vw;
+        padding-bottom: 0.4vw;
+        padding-top: 0.4vw;
+        font-size: 0.7vw;
+    }
+    table {
+        background-color: white;
+        border-radius: 1vw;
+        width: 40%  ;
+    }
+    .logotable{
+
+        width: 70%;
+
+    }
+}
