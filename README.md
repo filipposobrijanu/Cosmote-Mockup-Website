@@ -7,7 +7,8 @@ A mockup website made for a greek company called Cosmote, that is heavily inspir
 
 ## 🛠️ Technologies Used
 
-- **HTML5, CSS3, JavaScript**
+- **HTML5, CSS3, JavaScript**\
+- **PHP, SQL**
 - **Bootstrap 5** for responsive UI
 - **VS Code** (development IDE)
 
