@@ -3,6 +3,7 @@
 
 This project is a **fully functional mockup website** designed for Cosmote, Greece’s leading telecommunications provider. Created as part of a **university assignment**, the site closely mirrors the structure, branding, and user experience of Cosmote’s official website, while incorporating original design and development elements.
 
+![screenshot](Images/1.PNG)
 ---
 
 ## 🛠️ Technologies Used
@@ -12,12 +13,16 @@ This project is a **fully functional mockup website** designed for Cosmote, Gree
 - **Bootstrap 5** for responsive UI
 - **VS Code** (development IDE)
 
+![screenshot](Images/2.PNG)
+![screenshot](Images/3.PNG)
+![screenshot](Images/5.PNG)
 ---
 
 ## 📄 License
 
 This project is open-source.
 
+![screenshot](Images/4.PNG)
 ---
 
 ## 🤝 Contributing
