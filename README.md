@@ -1,7 +1,7 @@
 
 # 🌐 Cosmote Mockup Website
 
-A mockup website made for a greek company called Cosmote, that is heavily inspired by the real website that they currently have. This was a project for Uni.
+This project is a **fully functional mockup website** designed for Cosmote, Greece’s leading telecommunications provider. Created as part of a **university assignment**, the site closely mirrors the structure, branding, and user experience of Cosmote’s official website, while incorporating original design and development elements.
 
 ---
 
