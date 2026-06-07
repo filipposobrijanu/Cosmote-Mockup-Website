@@ -1,36 +1,36 @@
+# Cosmote Web Mockup
 
-# 🌐 Cosmote Mockup Website
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-This project is a **fully functional mockup website** designed for Cosmote, Greece’s leading telecommunications provider. Created as part of a **university assignment**, the site closely mirrors the structure, branding, and user experience of Cosmote’s official website, while incorporating original design and development elements.
+A high-fidelity web mockup inspired by the Cosmote telecommunications platform. This project serves as a comprehensive demonstration of full-stack development, utilizing PHP and SQL to handle backend data operations while maintaining a modern, responsive frontend aesthetic.
 
-![screenshot](Images/1.PNG)
----
+![Cosmote Mockup Screenshot](Images/1.PNG)
 
-## 🛠️ Technologies Used
+## ✨ Core Features
 
-- **HTML5, CSS3, JavaScript**\
-- **PHP, SQL**
-- **Bootstrap 5** for responsive UI
-- **VS Code** (development IDE)
+* **Dynamic Data Handling:** Uses PHP and SQL to manage site content and dynamic data rendering.
+* **Responsive Layout:** Built with Bootstrap 5 to ensure a professional and fluid user experience across all devices.
+* **Brand-Focused UI:** Recreates the complex structure of a national telecom provider’s landing page, focusing on clean navigation and information architecture.
+* **Full-Stack Integration:** Connects frontend UI components to backend database queries to simulate real-world service management.
 
-![screenshot](Images/2.PNG)
-![screenshot](Images/3.PNG)
-![screenshot](Images/5.PNG)
----
+## 🛠️ Built With
 
-## 📄 License
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JS" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+</p>
 
-This project is open-source.
+![UI Detail 1](Images/2.PNG)
+![UI Detail 2](Images/3.PNG)
+![Backend Interface](Images/5.PNG)
+![Design Assets](Images/4.PNG)
 
-![screenshot](Images/4.PNG)
----
+## 🚀 Getting Started
 
-## 🤝 Contributing
-
-Pull requests are welcome! Please follow standard GitHub flow and keep the code clean and documented.
-
----
-
-## 📬 Contact
-
-For questions, contact me at [obrizanou@gmail.com](mailto:obrizanou@gmail.com) or open an issue.
+1. **Clone the repository:**
+```bash
+   git clone [https://github.com/filipposobrijanu/Cosmote-Mockup.git](https://github.com/filipposobrijanu/Cosmote-Mockup.git)
