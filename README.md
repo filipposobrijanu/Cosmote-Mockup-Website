@@ -33,4 +33,6 @@ A high-fidelity web mockup inspired by the Cosmote telecommunications platform. 
 
 1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/filipposobrijanu/Cosmote-Mockup.git](https://github.com/filipposobrijanu/Cosmote-Mockup.git)
+   git clone [https://github.com/filipposobrijanu/Cosmote-Mockup-Website
+.git](https://github.com/filipposobrijanu/Cosmote-Mockup-Website
+.git)
